@@ -15,6 +15,22 @@
 		03C047ED1CDB986000602401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C047EB1CDB986000602401 /* LaunchScreen.storyboard */; };
 		03C047F81CDB986100602401 /* SlidingSymmetryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C047F71CDB986100602401 /* SlidingSymmetryTests.m */; };
 		03C048031CDB986100602401 /* SlidingSymmetryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C048021CDB986100602401 /* SlidingSymmetryUITests.m */; };
+		03C0487A1CE0109800602401 /* symmetry_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C048751CE0109800602401 /* symmetry_09.png */; };
+		03C0487B1CE0109800602401 /* symmetry_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C048761CE0109800602401 /* symmetry_08.png */; };
+		03C048801CE010BC00602401 /* symmetry_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C0487F1CE010BC00602401 /* symmetry_10.png */; };
+		03C048861CE010CA00602401 /* symmetry_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C048811CE010CA00602401 /* symmetry_15.png */; };
+		03C048871CE010CA00602401 /* symmetry_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C048821CE010CA00602401 /* symmetry_14.png */; };
+		03C048881CE010CA00602401 /* symmetry_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C048831CE010CA00602401 /* symmetry_13.png */; };
+		03C048891CE010CA00602401 /* symmetry_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C048841CE010CA00602401 /* symmetry_12.png */; };
+		03C0488A1CE010CA00602401 /* symmetry_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C048851CE010CA00602401 /* symmetry_11.png */; };
+		03C0488C1CE016A800602401 /* symmetry_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C0488B1CE016A800602401 /* symmetry_00.png */; };
+		03C0488E1CE016BC00602401 /* symmetry_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C0488D1CE016BC00602401 /* symmetry_01.png */; };
+		03C048901CE016C500602401 /* symmetry_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C0488F1CE016C500602401 /* symmetry_02.png */; };
+		03C048921CE016D100602401 /* symmetry_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C048911CE016D100602401 /* symmetry_03.png */; };
+		03C048941CE016DB00602401 /* symmetry_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C048931CE016DB00602401 /* symmetry_04.png */; };
+		03C048961CE016E200602401 /* symmetry_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C048951CE016E200602401 /* symmetry_05.png */; };
+		03C048981CE016EB00602401 /* symmetry_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C048971CE016EB00602401 /* symmetry_06.png */; };
+		03C0489A1CE0170000602401 /* symmetry_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C048991CE016FF00602401 /* symmetry_07.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +56,7 @@
 		03C047E01CDB986000602401 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03C047E11CDB986000602401 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03C047E31CDB986000602401 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		03C047E41CDB986000602401 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03C047E41CDB986000602401 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = SlidingSymmetry/ViewController.m; sourceTree = SOURCE_ROOT; };
 		03C047E71CDB986000602401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03C047E91CDB986000602401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03C047EC1CDB986000602401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,22 @@
 		03C047FE1CDB986100602401 /* SlidingSymmetryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingSymmetryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C048021CDB986100602401 /* SlidingSymmetryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingSymmetryUITests.m; sourceTree = "<group>"; };
 		03C048041CDB986100602401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C048751CE0109800602401 /* symmetry_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_09.png; path = ../../../../Downloads/symmetry_09.png; sourceTree = "<group>"; };
+		03C048761CE0109800602401 /* symmetry_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_08.png; path = ../../../../Downloads/symmetry_08.png; sourceTree = "<group>"; };
+		03C0487F1CE010BC00602401 /* symmetry_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_10.png; path = ../../../../Downloads/symmetry_10.png; sourceTree = "<group>"; };
+		03C048811CE010CA00602401 /* symmetry_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_15.png; path = ../../../../Downloads/symmetry_15.png; sourceTree = "<group>"; };
+		03C048821CE010CA00602401 /* symmetry_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_14.png; path = ../../../../Downloads/symmetry_14.png; sourceTree = "<group>"; };
+		03C048831CE010CA00602401 /* symmetry_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_13.png; path = ../../../../Downloads/symmetry_13.png; sourceTree = "<group>"; };
+		03C048841CE010CA00602401 /* symmetry_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_12.png; path = ../../../../Downloads/symmetry_12.png; sourceTree = "<group>"; };
+		03C048851CE010CA00602401 /* symmetry_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_11.png; path = ../../../../Downloads/symmetry_11.png; sourceTree = "<group>"; };
+		03C0488B1CE016A800602401 /* symmetry_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_00.png; path = ../../../../Downloads/symmetry_00.png; sourceTree = "<group>"; };
+		03C0488D1CE016BC00602401 /* symmetry_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_01.png; path = ../../../../Downloads/symmetry_01.png; sourceTree = "<group>"; };
+		03C0488F1CE016C500602401 /* symmetry_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_02.png; path = ../../../../Downloads/symmetry_02.png; sourceTree = "<group>"; };
+		03C048911CE016D100602401 /* symmetry_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_03.png; path = ../../../../Downloads/symmetry_03.png; sourceTree = "<group>"; };
+		03C048931CE016DB00602401 /* symmetry_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_04.png; path = ../../../../Downloads/symmetry_04.png; sourceTree = "<group>"; };
+		03C048951CE016E200602401 /* symmetry_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_05.png; path = ../../../../Downloads/symmetry_05.png; sourceTree = "<group>"; };
+		03C048971CE016EB00602401 /* symmetry_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_06.png; path = ../../../../Downloads/symmetry_06.png; sourceTree = "<group>"; };
+		03C048991CE016FF00602401 /* symmetry_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = symmetry_07.png; path = ../../../../Downloads/symmetry_07.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +133,7 @@
 		03C047DC1CDB986000602401 /* SlidingSymmetry */ = {
 			isa = PBXGroup;
 			children = (
+				03C0483E1CDFFF4E00602401 /* Images */,
 				03C047E01CDB986000602401 /* AppDelegate.h */,
 				03C047E11CDB986000602401 /* AppDelegate.m */,
 				03C047E31CDB986000602401 /* ViewController.h */,
@@ -138,6 +171,29 @@
 				03C048041CDB986100602401 /* Info.plist */,
 			);
 			path = SlidingSymmetryUITests;
+			sourceTree = "<group>";
+		};
+		03C0483E1CDFFF4E00602401 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				03C0488B1CE016A800602401 /* symmetry_00.png */,
+				03C0488D1CE016BC00602401 /* symmetry_01.png */,
+				03C0488F1CE016C500602401 /* symmetry_02.png */,
+				03C048931CE016DB00602401 /* symmetry_04.png */,
+				03C048911CE016D100602401 /* symmetry_03.png */,
+				03C048951CE016E200602401 /* symmetry_05.png */,
+				03C048971CE016EB00602401 /* symmetry_06.png */,
+				03C048991CE016FF00602401 /* symmetry_07.png */,
+				03C048761CE0109800602401 /* symmetry_08.png */,
+				03C048751CE0109800602401 /* symmetry_09.png */,
+				03C0487F1CE010BC00602401 /* symmetry_10.png */,
+				03C048851CE010CA00602401 /* symmetry_11.png */,
+				03C048841CE010CA00602401 /* symmetry_12.png */,
+				03C048831CE010CA00602401 /* symmetry_13.png */,
+				03C048821CE010CA00602401 /* symmetry_14.png */,
+				03C048811CE010CA00602401 /* symmetry_15.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +263,7 @@
 				TargetAttributes = {
 					03C047D91CDB986000602401 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K6H23B52LK;
 					};
 					03C047F21CDB986100602401 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,9 +300,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C048881CE010CA00602401 /* symmetry_13.png in Resources */,
+				03C048871CE010CA00602401 /* symmetry_14.png in Resources */,
 				03C047ED1CDB986000602401 /* LaunchScreen.storyboard in Resources */,
+				03C048861CE010CA00602401 /* symmetry_15.png in Resources */,
+				03C048901CE016C500602401 /* symmetry_02.png in Resources */,
 				03C047EA1CDB986000602401 /* Assets.xcassets in Resources */,
+				03C048921CE016D100602401 /* symmetry_03.png in Resources */,
+				03C048981CE016EB00602401 /* symmetry_06.png in Resources */,
+				03C0488C1CE016A800602401 /* symmetry_00.png in Resources */,
+				03C048801CE010BC00602401 /* symmetry_10.png in Resources */,
+				03C0488A1CE010CA00602401 /* symmetry_11.png in Resources */,
+				03C048961CE016E200602401 /* symmetry_05.png in Resources */,
+				03C0487A1CE0109800602401 /* symmetry_09.png in Resources */,
+				03C0487B1CE0109800602401 /* symmetry_08.png in Resources */,
 				03C047E81CDB986000602401 /* Main.storyboard in Resources */,
+				03C048891CE010CA00602401 /* symmetry_12.png in Resources */,
+				03C0488E1CE016BC00602401 /* symmetry_01.png in Resources */,
+				03C0489A1CE0170000602401 /* symmetry_07.png in Resources */,
+				03C048941CE016DB00602401 /* symmetry_04.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,10 +488,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GENERATE_PROFILING_CODE = YES;
 				INFOPLIST_FILE = SlidingSymmetry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calcproject.SlidingSymmetry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -426,10 +506,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_PROFILING_CODE = YES;
 				INFOPLIST_FILE = SlidingSymmetry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.calcproject.SlidingSymmetry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -498,6 +589,7 @@
 				03C048091CDB986100602401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03C0480A1CDB986100602401 /* Build configuration list for PBXNativeTarget "SlidingSymmetryTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +598,7 @@
 				03C0480C1CDB986100602401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03C0480D1CDB986100602401 /* Build configuration list for PBXNativeTarget "SlidingSymmetryUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +607,7 @@
 				03C0480F1CDB986100602401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

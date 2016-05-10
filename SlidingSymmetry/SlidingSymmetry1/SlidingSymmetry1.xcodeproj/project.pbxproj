@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C048A91CE1954A00602401 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C048A81CE1954A00602401 /* AppDelegate.m */; };
+		03C048AC1CE1954A00602401 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C048AB1CE1954A00602401 /* main.m */; };
+		03C048AF1CE1954A00602401 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C048AE1CE1954A00602401 /* ViewController.m */; };
+		03C048B11CE1954B00602401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C048B01CE1954B00602401 /* Assets.xcassets */; };
+		03C048B41CE1954B00602401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C048B21CE1954B00602401 /* Main.storyboard */; };
+		03C048BF1CE1954B00602401 /* SlidingSymmetry1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C048BE1CE1954B00602401 /* SlidingSymmetry1Tests.m */; };
+		03C048CA1CE1954B00602401 /* SlidingSymmetry1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C048C91CE1954B00602401 /* SlidingSymmetry1UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C048BB1CE1954B00602401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C0489C1CE1954900602401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C048A31CE1954900602401;
+			remoteInfo = SlidingSymmetry1;
+		};
+		03C048C61CE1954B00602401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C0489C1CE1954900602401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C048A31CE1954900602401;
+			remoteInfo = SlidingSymmetry1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C048A41CE1954A00602401 /* SlidingSymmetry1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingSymmetry1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C048A71CE1954A00602401 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03C048A81CE1954A00602401 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03C048AB1CE1954A00602401 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03C048AD1CE1954A00602401 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03C048AE1CE1954A00602401 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03C048B01CE1954B00602401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03C048B31CE1954B00602401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C048B51CE1954B00602401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C048BA1CE1954B00602401 /* SlidingSymmetry1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingSymmetry1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C048BE1CE1954B00602401 /* SlidingSymmetry1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingSymmetry1Tests.m; sourceTree = "<group>"; };
+		03C048C01CE1954B00602401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C048C51CE1954B00602401 /* SlidingSymmetry1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingSymmetry1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C048C91CE1954B00602401 /* SlidingSymmetry1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingSymmetry1UITests.m; sourceTree = "<group>"; };
+		03C048CB1CE1954B00602401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C048A11CE1954900602401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C048B71CE1954B00602401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C048C21CE1954B00602401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C0489B1CE1954900602401 = {
+			isa = PBXGroup;
+			children = (
+				03C048A61CE1954A00602401 /* SlidingSymmetry1 */,
+				03C048BD1CE1954B00602401 /* SlidingSymmetry1Tests */,
+				03C048C81CE1954B00602401 /* SlidingSymmetry1UITests */,
+				03C048A51CE1954A00602401 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03C048A51CE1954A00602401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C048A41CE1954A00602401 /* SlidingSymmetry1.app */,
+				03C048BA1CE1954B00602401 /* SlidingSymmetry1Tests.xctest */,
+				03C048C51CE1954B00602401 /* SlidingSymmetry1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C048A61CE1954A00602401 /* SlidingSymmetry1 */ = {
+			isa = PBXGroup;
+			children = (
+				03C048A71CE1954A00602401 /* AppDelegate.h */,
+				03C048A81CE1954A00602401 /* AppDelegate.m */,
+				03C048AD1CE1954A00602401 /* ViewController.h */,
+				03C048AE1CE1954A00602401 /* ViewController.m */,
+				03C048B01CE1954B00602401 /* Assets.xcassets */,
+				03C048B21CE1954B00602401 /* Main.storyboard */,
+				03C048B51CE1954B00602401 /* Info.plist */,
+				03C048AA1CE1954A00602401 /* Supporting Files */,
+			);
+			path = SlidingSymmetry1;
+			sourceTree = "<group>";
+		};
+		03C048AA1CE1954A00602401 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C048AB1CE1954A00602401 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03C048BD1CE1954B00602401 /* SlidingSymmetry1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				03C048BE1CE1954B00602401 /* SlidingSymmetry1Tests.m */,
+				03C048C01CE1954B00602401 /* Info.plist */,
+			);
+			path = SlidingSymmetry1Tests;
+			sourceTree = "<group>";
+		};
+		03C048C81CE1954B00602401 /* SlidingSymmetry1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				03C048C91CE1954B00602401 /* SlidingSymmetry1UITests.m */,
+				03C048CB1CE1954B00602401 /* Info.plist */,
+			);
+			path = SlidingSymmetry1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C048A31CE1954900602401 /* SlidingSymmetry1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C048CE1CE1954B00602401 /* Build configuration list for PBXNativeTarget "SlidingSymmetry1" */;
+			buildPhases = (
+				03C048A01CE1954900602401 /* Sources */,
+				03C048A11CE1954900602401 /* Frameworks */,
+				03C048A21CE1954900602401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingSymmetry1;
+			productName = SlidingSymmetry1;
+			productReference = 03C048A41CE1954A00602401 /* SlidingSymmetry1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03C048B91CE1954B00602401 /* SlidingSymmetry1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C048D11CE1954B00602401 /* Build configuration list for PBXNativeTarget "SlidingSymmetry1Tests" */;
+			buildPhases = (
+				03C048B61CE1954B00602401 /* Sources */,
+				03C048B71CE1954B00602401 /* Frameworks */,
+				03C048B81CE1954B00602401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C048BC1CE1954B00602401 /* PBXTargetDependency */,
+			);
+			name = SlidingSymmetry1Tests;
+			productName = SlidingSymmetry1Tests;
+			productReference = 03C048BA1CE1954B00602401 /* SlidingSymmetry1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03C048C41CE1954B00602401 /* SlidingSymmetry1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C048D41CE1954B00602401 /* Build configuration list for PBXNativeTarget "SlidingSymmetry1UITests" */;
+			buildPhases = (
+				03C048C11CE1954B00602401 /* Sources */,
+				03C048C21CE1954B00602401 /* Frameworks */,
+				03C048C31CE1954B00602401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C048C71CE1954B00602401 /* PBXTargetDependency */,
+			);
+			name = SlidingSymmetry1UITests;
+			productName = SlidingSymmetry1UITests;
+			productReference = 03C048C51CE1954B00602401 /* SlidingSymmetry1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C0489C1CE1954900602401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Diane Xie";
+				TargetAttributes = {
+					03C048A31CE1954900602401 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					03C048B91CE1954B00602401 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 03C048A31CE1954900602401;
+					};
+					03C048C41CE1954B00602401 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 03C048A31CE1954900602401;
+					};
+				};
+			};
+			buildConfigurationList = 03C0489F1CE1954900602401 /* Build configuration list for PBXProject "SlidingSymmetry1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C0489B1CE1954900602401;
+			productRefGroup = 03C048A51CE1954A00602401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C048A31CE1954900602401 /* SlidingSymmetry1 */,
+				03C048B91CE1954B00602401 /* SlidingSymmetry1Tests */,
+				03C048C41CE1954B00602401 /* SlidingSymmetry1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C048A21CE1954900602401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C048B11CE1954B00602401 /* Assets.xcassets in Resources */,
+				03C048B41CE1954B00602401 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C048B81CE1954B00602401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C048C31CE1954B00602401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C048A01CE1954900602401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C048AF1CE1954A00602401 /* ViewController.m in Sources */,
+				03C048AC1CE1954A00602401 /* main.m in Sources */,
+				03C048A91CE1954A00602401 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C048B61CE1954B00602401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C048BF1CE1954B00602401 /* SlidingSymmetry1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C048C11CE1954B00602401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C048CA1CE1954B00602401 /* SlidingSymmetry1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C048BC1CE1954B00602401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C048A31CE1954900602401 /* SlidingSymmetry1 */;
+			targetProxy = 03C048BB1CE1954B00602401 /* PBXContainerItemProxy */;
+		};
+		03C048C71CE1954B00602401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C048A31CE1954900602401 /* SlidingSymmetry1 */;
+			targetProxy = 03C048C61CE1954B00602401 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03C048B21CE1954B00602401 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C048B31CE1954B00602401 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C048CC1CE1954B00602401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03C048CD1CE1954B00602401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03C048CF1CE1954B00602401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SlidingSymmetry1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcproject.SlidingSymmetry1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03C048D01CE1954B00602401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SlidingSymmetry1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcproject.SlidingSymmetry1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03C048D21CE1954B00602401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SlidingSymmetry1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcproject.SlidingSymmetry1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlidingSymmetry1.app/Contents/MacOS/SlidingSymmetry1";
+			};
+			name = Debug;
+		};
+		03C048D31CE1954B00602401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SlidingSymmetry1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcproject.SlidingSymmetry1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlidingSymmetry1.app/Contents/MacOS/SlidingSymmetry1";
+			};
+			name = Release;
+		};
+		03C048D51CE1954B00602401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SlidingSymmetry1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcproject.SlidingSymmetry1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlidingSymmetry1;
+			};
+			name = Debug;
+		};
+		03C048D61CE1954B00602401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SlidingSymmetry1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calcproject.SlidingSymmetry1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlidingSymmetry1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C0489F1CE1954900602401 /* Build configuration list for PBXProject "SlidingSymmetry1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C048CC1CE1954B00602401 /* Debug */,
+				03C048CD1CE1954B00602401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C048CE1CE1954B00602401 /* Build configuration list for PBXNativeTarget "SlidingSymmetry1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C048CF1CE1954B00602401 /* Debug */,
+				03C048D01CE1954B00602401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03C048D11CE1954B00602401 /* Build configuration list for PBXNativeTarget "SlidingSymmetry1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C048D21CE1954B00602401 /* Debug */,
+				03C048D31CE1954B00602401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03C048D41CE1954B00602401 /* Build configuration list for PBXNativeTarget "SlidingSymmetry1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C048D51CE1954B00602401 /* Debug */,
+				03C048D61CE1954B00602401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C0489C1CE1954900602401 /* Project object */;
+}

@@ -14,38 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "03C047D91CDB986000602401"
-               BuildableName = "SlidingSymmetry.app"
-               BlueprintName = "SlidingSymmetry"
-               ReferencedContainer = "container:SlidingSymmetry.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "03C047F21CDB986100602401"
-               BuildableName = "SlidingSymmetryTests.xctest"
-               BlueprintName = "SlidingSymmetryTests"
-               ReferencedContainer = "container:SlidingSymmetry.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "03C047FD1CDB986100602401"
-               BuildableName = "SlidingSymmetryUITests.xctest"
-               BlueprintName = "SlidingSymmetryUITests"
-               ReferencedContainer = "container:SlidingSymmetry.xcodeproj">
+               BlueprintIdentifier = "03C048A31CE1954900602401"
+               BuildableName = "SlidingSymmetry1.app"
+               BlueprintName = "SlidingSymmetry1"
+               ReferencedContainer = "container:SlidingSymmetry1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -60,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "03C047F21CDB986100602401"
-               BuildableName = "SlidingSymmetryTests.xctest"
-               BlueprintName = "SlidingSymmetryTests"
-               ReferencedContainer = "container:SlidingSymmetry.xcodeproj">
+               BlueprintIdentifier = "03C048B91CE1954B00602401"
+               BuildableName = "SlidingSymmetry1Tests.xctest"
+               BlueprintName = "SlidingSymmetry1Tests"
+               ReferencedContainer = "container:SlidingSymmetry1.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "03C047FD1CDB986100602401"
-               BuildableName = "SlidingSymmetryUITests.xctest"
-               BlueprintName = "SlidingSymmetryUITests"
-               ReferencedContainer = "container:SlidingSymmetry.xcodeproj">
+               BlueprintIdentifier = "03C048C41CE1954B00602401"
+               BuildableName = "SlidingSymmetry1UITests.xctest"
+               BlueprintName = "SlidingSymmetry1UITests"
+               ReferencedContainer = "container:SlidingSymmetry1.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "03C047D91CDB986000602401"
-            BuildableName = "SlidingSymmetry.app"
-            BlueprintName = "SlidingSymmetry"
-            ReferencedContainer = "container:SlidingSymmetry.xcodeproj">
+            BlueprintIdentifier = "03C048A31CE1954900602401"
+            BuildableName = "SlidingSymmetry1.app"
+            BlueprintName = "SlidingSymmetry1"
+            ReferencedContainer = "container:SlidingSymmetry1.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -103,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "03C047D91CDB986000602401"
-            BuildableName = "SlidingSymmetry.app"
-            BlueprintName = "SlidingSymmetry"
-            ReferencedContainer = "container:SlidingSymmetry.xcodeproj">
+            BlueprintIdentifier = "03C048A31CE1954900602401"
+            BuildableName = "SlidingSymmetry1.app"
+            BlueprintName = "SlidingSymmetry1"
+            ReferencedContainer = "container:SlidingSymmetry1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -122,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "03C047D91CDB986000602401"
-            BuildableName = "SlidingSymmetry.app"
-            BlueprintName = "SlidingSymmetry"
-            ReferencedContainer = "container:SlidingSymmetry.xcodeproj">
+            BlueprintIdentifier = "03C048A31CE1954900602401"
+            BuildableName = "SlidingSymmetry1.app"
+            BlueprintName = "SlidingSymmetry1"
+            ReferencedContainer = "container:SlidingSymmetry1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
